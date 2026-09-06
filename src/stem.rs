@@ -33,19 +33,10 @@ impl TokenFilter for SwedishStemFilter {
 fn stem_swedish(word: &str) -> String {
     let suffixes: &[&str] = &[
         // Longest first
-        "igheter", "igheten", "ighet",
-        "elserna", "elser", "elsen",
-        "ingarna", "ningar",
-        "ingar", "ingen", "ande", "arna", "erna", "oren", "orna", "aren",
-        "aste", "ades",
-        "ning", "ling",
-        "ing", "ens", "are", "ast",
-        "ade", "arn", "ern",
-        "iga", "igt", "isk",
-        "het", "dom",
-        "ad", "an", "ar", "at", "en", "er", "es", "et",
-        "or", "os",
-        "a", "e", "s",
+        "igheter", "igheten", "ighet", "elserna", "elser", "elsen", "ingarna", "ningar", "ingar",
+        "ingen", "ande", "arna", "erna", "oren", "orna", "aren", "aste", "ades", "ning", "ling",
+        "ing", "ens", "are", "ast", "ade", "arn", "ern", "iga", "igt", "isk", "het", "dom", "ad",
+        "an", "ar", "at", "en", "er", "es", "et", "or", "os", "a", "e", "s",
     ];
 
     for suffix in suffixes {
