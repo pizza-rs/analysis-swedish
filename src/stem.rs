@@ -36,7 +36,7 @@ fn stem_swedish(word: &str) -> String {
         "igheter", "igheten", "ighet",
         "elserna", "elser", "elsen",
         "ingarna", "ningar",
-        "ingar", "ingen", "ande", "arna", "erna", "aren",
+        "ingar", "ingen", "ande", "arna", "erna", "oren", "orna", "aren",
         "aste", "ades",
         "ning", "ling",
         "ing", "ens", "are", "ast",
